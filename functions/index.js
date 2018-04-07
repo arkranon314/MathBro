@@ -1,28 +1,28 @@
-const functions = require('firebase-functions');
+'use strict';
 
-exports.webhook = functions.https.onRequest((request, response) => {
+const functions = require('firebase-functions'); 
 
-        console.log("parameters: ", request.body.result.parameters);
-        let params  = request.body.result.parameters;
-        var numbers = params.numbers;
-        switch(request.body.result.action){
-          case 'sum':
-              numbers = numbers.reduce(sum,0);
-              response.send({
-                  speech:
-                      "The result is " + numbers
-              });
-            break;
-          case 'subtract':
-              numbers = numbers.reduce(subtract);
-              response.send({
-                  speech:
-                      "The result is " + numbers
-              });
-              console.log(respone)
-            break;
-        }
+exports.mathBro = functions.https.onRequest((request, response) => {
 
-        function sum(x, y){return x + y}
-        function subtract(x, y){return x - y}
-    });
+    let res;
+
+    if (request.body.result.metadata.intentName == "square") {
+        
+        let num = request.body.result.parameters.number;
+        let sq = square(num);
+        
+        res = 'The square of ' + num + ' is ' + sq;
+
+    }
+    else {
+
+        res = 'Sorry, I didn\'t get that.';
+
+    }
+
+    response.setHeader('Content-Type', 'application/json');
+    response.send(JSON.stringify({ "speech": res, "displayText": res}));
+
+    function square(n) { return n*n; }
+
+});
