@@ -19,10 +19,28 @@ exports.webhook = functions.https.onRequest((request, response) => {
                   speech:
                       "The result is " + numbers
               });
-              console.log(respone)
+              console.log(response)
+            break;
+          case 'multiply':
+              numbers = numbers.reduce(multiply);
+              response.send({
+                  speech:
+                      "The result is " + numbers
+              });
+              console.log(response)
+            break;
+          case 'divide':
+              numbers = numbers.reduce(divide);
+              response.send({
+                  speech:
+                      "The result is " + numbers
+              });
+              console.log(response)
             break;
         }
 
         function sum(x, y){return x + y}
         function subtract(x, y){return x - y}
+        function multiply(x, y){return x * y}
+        function divide(x, y){return x / y}
     });
