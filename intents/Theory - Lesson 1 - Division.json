@@ -1,0 +1,36 @@
+{
+  "id": "b9b3079f-d218-4a0c-9901-4f574e8e4c11",
+  "name": "Theory - Lesson 1 - Division",
+  "auto": true,
+  "contexts": [
+    "theory-lesson-1-option"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "theory-lesson-1-option",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "There are four apples in a basket. How many should Bob and Alice take each for them to have the same number of apples? Let\u0027s count! Four apples in the basket means Bob and Alice can take two each. That is: 4 (apples in the basket) ÷ 2 (Bob and Alice) \u003d 2 (apples Bob and Alice can take). So diving in reality is like substracting, which is just counting. For example, 6 x 2 \u003d 3 and 10 x 5 \u003d 2. Is it clear? :) Then go practice!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523218988,
+  "fallbackIntent": false,
+  "events": []
+}

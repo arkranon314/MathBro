@@ -1,0 +1,36 @@
+{
+  "id": "15e2e3f4-6c62-4f60-a97e-1b5d9b3675c7",
+  "name": "Theory - Lesson 1",
+  "auto": true,
+  "contexts": [
+    "theory-lesson"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "theory-lesson-1-option",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What basic arithmetic operation do you want me to teach you? Addition, substraction, multiplication or division?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523216981,
+  "fallbackIntent": false,
+  "events": []
+}

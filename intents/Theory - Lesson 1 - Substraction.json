@@ -1,0 +1,30 @@
+{
+  "id": "2dd8be1e-18a7-41b2-909e-08be105f40a8",
+  "name": "Theory - Lesson 1 - Substraction",
+  "auto": true,
+  "contexts": [
+    "theory-lesson-1-option"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Bob has two apples and Alice have none. If Bob gives one of the apples to Alice, how many apples will Bob have left? Let\u0027s count! Two apples of Bob minus one apple he gives to Alice equals one apple left for Bob. That is: 2 (Bob\u0027s apples) - 1 (Alice\u0027s apple) \u003d 1 (apples Bob has left). So to substract we just have to count the numbers that are left after taking the second number from the first. For example, 4 - 2 \u003d 2 and 11 - 5 \u003d 6. Is it clear? :) Then go practice!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523217996,
+  "fallbackIntent": false,
+  "events": []
+}
