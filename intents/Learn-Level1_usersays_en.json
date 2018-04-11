@@ -1,6 +1,6 @@
 [
   {
-    "id": "dbeb94d8-a233-4fcf-ad04-7e62eebe4188",
+    "id": "c8999526-2b15-4635-a8e4-b30623644c9e",
     "data": [
       {
         "text": "Basic mathematical operations",
@@ -8,50 +8,86 @@
       }
     ],
     "isTemplate": false,
-    "count": 1,
-    "updated": 1523216407
+    "count": 0,
+    "updated": 1523172814
   },
   {
-    "id": "aa7cc76d-4195-496d-8895-d594a80b5b9b",
+    "id": "456cc43f-2046-4891-94c6-5d858d19fb17",
     "data": [
       {
-        "text": "I want to learn basic arithmetics",
+        "text": "Basic operations",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1523216407
+    "updated": 1523172814
   },
   {
-    "id": "9bfd4b8b-ebd5-4c3b-b44f-c478cfea8226",
+    "id": "2c659a5e-ecd7-40dc-9d21-7624ee3143e3",
     "data": [
       {
-        "text": "Teach me basic arithmetics",
+        "text": "Teach me about basic operations",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1523216407
+    "updated": 1523172814
   },
   {
-    "id": "1e25c723-d1b1-4d34-912d-fd39dde7500f",
+    "id": "a19118a7-a651-428f-bf83-e3fa01b8392c",
     "data": [
       {
-        "text": "Arithmetics",
+        "text": "Teach me about basic arithmetics",
         "userDefined": false
       }
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1523216407
+    "updated": 1523172814
   },
   {
-    "id": "492e5416-28c6-4679-95c6-5a0ee5558ac7",
+    "id": "dfed3ceb-1a25-480c-adc9-425fa7f73f1c",
     "data": [
       {
-        "text": "Level ",
+        "text": "I want to learn arithmetics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523172814
+  },
+  {
+    "id": "2089ef37-8123-40ff-bc3c-6c69ebe807e9",
+    "data": [
+      {
+        "text": "Artithmetics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523172814
+  },
+  {
+    "id": "315e6ba7-8f8c-4f61-80b4-18b9b4bea0a0",
+    "data": [
+      {
+        "text": "Basic maths",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523170705
+  },
+  {
+    "id": "1aaf3554-9fe6-43e0-84d2-24e99ed8ba7b",
+    "data": [
+      {
+        "text": "Option level ",
         "userDefined": false
       },
       {
@@ -62,13 +98,13 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1523216407
+    "updated": 1523170705
   },
   {
-    "id": "c6a514f3-6529-4706-a85e-eaef50570159",
+    "id": "367a173e-7374-4e0b-83f3-126a3103e40f",
     "data": [
       {
-        "text": "Lecture ",
+        "text": "Select level ",
         "userDefined": false
       },
       {
@@ -79,13 +115,13 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1523216407
+    "updated": 1523170705
   },
   {
-    "id": "eeb0bf42-4e62-45ec-ab14-87af33bf4af2",
+    "id": "150ffec4-42fc-4034-8fa8-2f4befc90a02",
     "data": [
       {
-        "text": "I choose lesson ",
+        "text": "I choose level ",
         "userDefined": false
       },
       {
@@ -96,27 +132,10 @@
     ],
     "isTemplate": false,
     "count": 0,
-    "updated": 1523216407
+    "updated": 1523170705
   },
   {
-    "id": "4d4df7e4-e9bc-4bfb-ad58-0b1978f189d0",
-    "data": [
-      {
-        "text": "I select lesson ",
-        "userDefined": false
-      },
-      {
-        "text": "1",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1523216407
-  },
-  {
-    "id": "ff32df6e-c138-4cc0-a949-f0e3564003af",
+    "id": "dca05e93-c61d-4ae6-8f8b-4132b6d5f509",
     "data": [
       {
         "text": "Select ",
@@ -129,65 +148,14 @@
       }
     ],
     "isTemplate": false,
-    "count": 1,
-    "updated": 1523216407
-  },
-  {
-    "id": "61462eab-6922-4521-b6ff-c2ea08aa6b1a",
-    "data": [
-      {
-        "text": "Choose ",
-        "userDefined": false
-      },
-      {
-        "text": "1",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
     "count": 0,
-    "updated": 1523216407
+    "updated": 1523170705
   },
   {
-    "id": "16fd5a36-2dc8-455f-a52a-591ec2a29742",
+    "id": "72a4f32e-59f0-4a9c-b821-292beeec6cce",
     "data": [
       {
-        "text": "Select lesson ",
-        "userDefined": false
-      },
-      {
-        "text": "1",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1523216407
-  },
-  {
-    "id": "32862fc8-3251-449e-ad4c-d28977aba9bc",
-    "data": [
-      {
-        "text": "Choose lesson ",
-        "userDefined": false
-      },
-      {
-        "text": "1",
-        "meta": "@sys.ignore",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 1523216407
-  },
-  {
-    "id": "5d3cbdf8-97bb-41f7-bc0a-a7c492cc1262",
-    "data": [
-      {
-        "text": "Lesson ",
+        "text": "Level ",
         "userDefined": false
       },
       {
@@ -198,6 +166,18 @@
     ],
     "isTemplate": false,
     "count": 1,
-    "updated": 1523216407
+    "updated": 1523170705
+  },
+  {
+    "id": "7f3cb791-f4a6-480b-b4e7-4c3b3dda74fe",
+    "data": [
+      {
+        "text": "I want to learn the basics of math",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523170705
   }
 ]

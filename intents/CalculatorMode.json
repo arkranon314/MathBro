@@ -1,0 +1,36 @@
+{
+  "id": "1cdc4f4c-e3e0-4af2-b8a9-a8e41dd69627",
+  "name": "CalculatorMode",
+  "auto": true,
+  "contexts": [
+    "menu-option"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "calculationmode",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You are in calculator mode, you can do additions, subtractions, multiplications, divisions, square roots and powers. Say directly the operation you want to perform."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523447130,
+  "fallbackIntent": false,
+  "events": []
+}

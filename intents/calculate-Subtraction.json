@@ -1,0 +1,52 @@
+{
+  "id": "85b4a21b-5254-49f4-956b-9bc183f37de0",
+  "name": "calculate-Subtraction",
+  "auto": true,
+  "contexts": [
+    "calculationmode"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "subtract",
+      "affectedContexts": [
+        {
+          "name": "calculationmode",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cc1d04df-4553-46bf-b6ef-f9b482acba3d",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "numbers",
+          "value": "$numbers",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please, provide at least two numbers."
+            }
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Something went wrong."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523447158,
+  "fallbackIntent": false,
+  "events": []
+}

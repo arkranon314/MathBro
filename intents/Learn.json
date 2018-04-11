@@ -1,0 +1,46 @@
+{
+  "id": "b0fd69bb-870e-42aa-90a7-b85f52cbd0c7",
+  "name": "Learn",
+  "auto": true,
+  "contexts": [
+    "menu-option"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option.learn",
+      "affectedContexts": [
+        {
+          "name": "level",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "94bed702-18b5-4dcc-82c2-ac3776f85700",
+          "required": false,
+          "dataType": "",
+          "name": "option",
+          "value": "learn",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What do you want to learn? Choose level 1 to learn basic arithmetics (sum, substraction, multiplication and division), level 2 for intermediate maths (square and square root) or level 3 for trigonometry or random for any of the options."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523179272,
+  "fallbackIntent": false,
+  "events": []
+}

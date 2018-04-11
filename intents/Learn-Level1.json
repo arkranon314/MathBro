@@ -1,16 +1,16 @@
 {
-  "id": "081b2eee-acbc-46ac-979d-d5c3fefa7e53",
-  "name": "Theory",
+  "id": "29544325-c841-4e1a-bf2c-f2e6164d6e5c",
+  "name": "Learn-Level1",
   "auto": true,
   "contexts": [
-    "chosen-mode"
+    "level"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "theory-lesson",
+          "name": "basic-level-option",
           "parameters": {},
           "lifespan": 5
         }
@@ -20,7 +20,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "What do you want to learn? Choose lesson 1, 2 or 3 to learn basic arithmetics (sum, substraction, multiplication and division), square and square root or trigonometry respectively."
+          "speech": "What do you want to learn? Please choose between addition, substraction, multiplication and division."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -30,7 +30,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1523217091,
+  "lastUpdate": 1523447173,
   "fallbackIntent": false,
   "events": []
 }

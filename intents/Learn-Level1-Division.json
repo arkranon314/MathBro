@@ -1,16 +1,16 @@
 {
-  "id": "15e2e3f4-6c62-4f60-a97e-1b5d9b3675c7",
-  "name": "Theory - Lesson 1",
+  "id": "aaad5ea8-8529-434e-8211-40be270c7be6",
+  "name": "Learn-Level1-Division",
   "auto": true,
   "contexts": [
-    "theory-lesson"
+    "basic-level-option"
   ],
   "responses": [
     {
-      "resetContexts": false,
+      "resetContexts": true,
       "affectedContexts": [
         {
-          "name": "theory-lesson-1-option",
+          "name": "basic-level-option",
           "parameters": {},
           "lifespan": 5
         }
@@ -20,7 +20,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "What basic arithmetic operation do you want me to teach you? Addition, substraction, multiplication or division?"
+          "speech": "Division is blablabla"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -30,7 +30,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1523216981,
+  "lastUpdate": 1523447187,
   "fallbackIntent": false,
   "events": []
 }

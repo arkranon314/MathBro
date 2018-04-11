@@ -1,0 +1,39 @@
+{
+  "id": "b1d286e7-0f8c-4a94-9b12-55293baf4228",
+  "name": "MainMenu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "menu-option",
+          "parameters": {},
+          "lifespan": 10
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hi! I\u0027m MathBro, the friend that will help you with your maths! What do you wanna do? You can learn about math (say \"learn\"), test your mathematical skills (say \"test\") or have me assist you in a task involving maths (say \"assistance\") :)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523447237,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}
