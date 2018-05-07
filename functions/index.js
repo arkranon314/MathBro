@@ -68,10 +68,10 @@ exports.webhook = functions.https.onRequest((request, response) => {
     numbers1 = getRandomInt(0,max_limit_numbers)
     numbers2 = getRandomInt(0,max_limit_numbers)
     if (params.score!==""){
-      score = params.score;
+      score = parseInt(params.score);
     }
     if(params.questionNumber!==""){
-      questionNumber = params.questionNumber;
+      questionNumber = parseInt(params.questionNumber);
     }
     parameters_dict.numbers1 = numbers1;
     parameters_dict.numbers2 = numbers2;
@@ -93,8 +93,8 @@ exports.webhook = functions.https.onRequest((request, response) => {
     });
   }
   function getResult(){
-    score = params.score;
-    questionNumber = params.questionNumber + 1;
+    score = parseInt(params.score);
+    questionNumber = parseInt(params.questionNumber) + 1;
     response_dict.contextOut = [
       {
         name: "test_mode",
@@ -133,8 +133,8 @@ exports.webhook = functions.https.onRequest((request, response) => {
       followupEvent: {
         name: eventName,
         parameters: {
-          "score": params.score,
-          "questionNumber": params.questionNumber
+          "score": parseInt(params.score),
+          "questionNumber": parseInt(params.questionNumber)
         }
       },
     });
