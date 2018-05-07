@@ -12,6 +12,7 @@ exports.webhook = functions.https.onRequest((request, response) => {
   console.log("action: ", request.body.result.action);
   let params  = request.body.result.parameters;
   let numbers = params.numbers;
+  let number = params.number;
   var score = 0;
   var questionNumber = 0;
   var response_dict = {};
@@ -33,6 +34,38 @@ exports.webhook = functions.https.onRequest((request, response) => {
         break;
     case 'divide':
         numbers = numbers.reduce(divide);
+        send();
+        break;
+    case 'square':
+        numbers = square(number);
+        send();
+        break;
+    case 'square_root':
+        numbers = root(number);
+        send();
+        break;
+    case 'circle_area':
+        numbers = circle_area(number);
+        send();
+        break;
+    case 'triangle_area':
+        numbers = numbers.reduce(triangle_area);
+        send();
+        break;
+    case 'square_area':
+        numbers = square_area(number);
+        send();
+        break;
+    case 'rectangle_area':
+        numbers = numbers.reduce(multiply);
+        send();
+        break;
+    case 'pentagon_area':
+        numbers = pentagon_area(number);
+        send();
+        break;
+    case 'hexagon_area':
+        numbers = hexagon_area(number);
         send();
         break;
     case 'test_basic_addition':
@@ -146,6 +179,13 @@ exports.webhook = functions.https.onRequest((request, response) => {
   function subtract(x, y){return x - y}
   function multiply(x, y){return x * y}
   function divide(x, y){return x / y}
+  function square(x) { return Math.pow(x,2)}
+  function root(x) { return Math.sqrt(x)}
+  function circle_area(radius) { return 3.14159*Math.pow(radius, 2)}
+  function triangle_area(base, height) { return base*height/2}
+  function square_area(side) { return Math.pow(side, 2)}
+  function pentagon_area(side) { return 1.720477*Math.pow(side,2)}
+  function hexagon_area(side) { return 2.598*Math.pow(side,2)}
   function send(){
     response.send({
       speech:
